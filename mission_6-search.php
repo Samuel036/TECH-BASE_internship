@@ -38,9 +38,9 @@
   if(isset($_POST["search_name"]) && !empty($_POST["search_name"])){  
     try{
         //DBに接続
-        $dsn = 'mysql:dbname=tb250623db;host=localhost';
-        $username= 'tb-250623';
-        $password= 'yRgAY42RAZ';
+        $dsn = 'mysql:dbname=ユーザー名;host=localhost';
+        $username= 'ユーザー名';
+        $password= 'パスワード';
         $pdo = new PDO($dsn, $username, $password);
 
         //SQL文を実行して、結果を$stmtに代入する。
