@@ -78,9 +78,9 @@
     <div class="midashi" style="font-size:40px;color:white;background-color:lightgreen;">忘れ物掲示板</div>
     <?php
         //DB接続
-        $dsn = 'mysql:dbname=tb250623db;host=localhost';
-        $user = 'tb-250623';
-        $password = 'yRgAY42RAZ';
+        $dsn = 'mysql:dbname=ユーザー名;host=localhost';
+        $user = 'ユーザー名';
+        $password = 'パスワード';
         $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => PDO::ERRMODE_WARNING));
         
         
