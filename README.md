@@ -1,4 +1,4 @@
-TECH-BASE様のインターンに参加させていただいて完成させた掲示板です。  
+TECH-BASE様のインターンに参加させていただいて完成させた簡易掲示板と、自由制作物として作成した忘れ物掲示板です。  
 #TECH-BASE  
   
 ・ mission3  https://tech-base.net/tb-250623/mission_3-5.php  
