@@ -2,9 +2,9 @@
     
     try {
         
-    $dsn = 'mysql:dbname=tb250623db;host=localhost';
-    $username= 'tb-250623';
-    $password= 'yRgAY42RAZ';
+    $dsn = 'mysql:dbname=ユーザー名;host=localhost';
+    $username= 'ユーザー名';
+    $password= 'パスワード';
     $pdo = new PDO($dsn, $username, $password);
     
     $sql = 'DELETE FROM lostfoundtb WHERE id=:id';
