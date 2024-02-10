@@ -12,9 +12,9 @@
         'mp4' => 'video/mp4'
     );
     try {
-        $dsn = 'mysql:dbname=tb250623db;host=localhost';
-        $user = "tb-250623";
-        $pass = "yRgAY42RAZ";
+        $dsn = 'mysql:dbname=ユーザー名;host=localhost';
+        $user = "ユーザー名";
+        $pass = "パスワード";
         $pdo = new PDO($dsn, $user, $pass);
         $sql = "SELECT * FROM lostfoundtb WHERE fname = :target;";
         $stmt = $pdo->prepare($sql);
